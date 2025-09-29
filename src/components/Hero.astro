@@ -1,0 +1,38 @@
+---
+import { Search, Zap, Heart, Filter } from "lucide-react";
+---
+
+<!-- Presentación -->
+<article class="flex flex-col items-center w-full sm:gap-y-4 lg:gap-y-8">
+    <div class="inline-flex items-center text-base mb-12">
+        <Zap className="size-5 mr-2" /> Curated libraries, snippets, utilities & tools
+    </div>
+    
+    <h1 class="text-5xl lg:text-8xl">
+        Devshelf
+    </h1>
+
+    <h1 class="text-3xl lg:text-6xl font-light">
+        Your Ultimate Developer Toolkit
+    </h1>
+
+    <p class="text-center text-lg lg:text-xl max-w-3xl mt-4">
+        A curated digital library of resources for developers. Explore libraries, tools, and utilities to learn faster, code smarter, and make development easier.
+    </p>
+</article>
+
+<!-- Pills de features -->
+<div class="flex flex-wrap justify-center gap-4 mt-12">
+    <div class="flex items-center px-4 py-2 rounded-full bg-card border border-border">
+        <Search className="w-4 h-4 mr-2 text-primary" />
+        <span class="text-sm font-medium">Smart Search</span>
+    </div>
+    <div class="flex items-center px-4 py-2 rounded-full bg-card border border-border">
+        <Filter className="w-4 h-4 mr-2 text-primary" />
+        <span class="text-sm font-medium">Advanced Filters</span>
+    </div>
+    <div class="flex items-center px-4 py-2 rounded-full bg-card border border-border">
+        <Heart className="w-4 h-4 mr-2 text-primary" />
+        <span class="text-sm font-medium">Personal Favorites</span>
+    </div>
+</div>
