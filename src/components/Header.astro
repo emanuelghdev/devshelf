@@ -1,0 +1,33 @@
+---
+import DevshelfIcon from './icons/DevshelfIcon.astro';
+---
+
+<!-- Header -->
+<header class="container mx-auto px-6 py-4 flex justify-between items-center border-b border-primary/20 dark:border-primary/30">
+        <!-- Logo y nav -->
+        <div class="flex items-center gap-16">
+            <a class="flex items-center text-3xl font-bold text-[#1b140d] dark:text-background-light" href="#top">
+                <DevshelfIcon class="h-10 w-10 text-primary mr-1" />
+                <span class="text-primary">Dev</span><span>shelf</span>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a class="text-[#3a2e24] dark:text-[#d3cec9] hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
+                <a class="text-[#3a2e24] dark:text-[#d3cec9] hover:text-primary dark:hover:text-primary transition-colors" href="#">Categories</a>
+                <a class="text-[#3a2e24] dark:text-[#d3cec9] hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+            </nav>
+        </div>
+
+        <!-- Buscador -->
+        <div class="flex items-center gap-4">
+            <div class="hidden sm:block relative w-48">
+                <input class="w-full h-10 pl-10 pr-4 text-sm bg-background-light dark:bg-background-dark border border-primary/30 dark:border-primary/50 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 text-[#3a2e24] dark:text-[#d3cec9] placeholder-primary/70 dark:placeholder-primary/60" placeholder="Search" type="search"/>
+                <svg class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-primary/70 dark:text-primary/60" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+            </div>
+            <button class="bg-primary text-white font-bold text-sm h-10 px-4 rounded-lg hover:bg-primary/90 transition-colors">
+                Submit a tool
+            </button>
+        </div>
+</header>
