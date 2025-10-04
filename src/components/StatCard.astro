@@ -1,0 +1,13 @@
+---
+export interface Props {
+  value?: string | number;
+  label?: string;
+}
+
+const { value = "0", label = "" } = Astro.props;
+---
+
+<div class="text-center">
+    <div class="text-4xl font-extrabold text-primary">{value}</div>
+    <div class="mt-1 text-lg font-medium">{label}</div>
+</div>

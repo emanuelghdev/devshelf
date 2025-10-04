@@ -4,7 +4,7 @@ import PreviewIcon from './icons/PreviewIcon.astro';
 ---
 
 <!-- Header -->
-<header class="fixed right-0 left-0 container mx-auto px-6 py-4 flex justify-between items-center border-b border-primary/20 dark:border-primary/30 backdrop-blur-sm bg-white/60 dark:bg-black/60 z-99">
+<header class="fixed right-0 left-0 w-full px-6 py-4 flex justify-between items-center border-b border-primary/20 dark:border-primary/30 backdrop-blur-sm bg-white/75 dark:bg-black/75 z-99">
         <!-- Menu -->
         <article class="flex items-center gap-16">
             <!-- Logo -->
@@ -19,7 +19,7 @@ import PreviewIcon from './icons/PreviewIcon.astro';
             </nav>
         </article>
 
-        <!-- Botones -->
+        <!-- Buttons -->
         <article class="flex items-center gap-4">
             <button class="flex flex-row justify-center items-center gap-2 bg-primary/90 text-white font-bold text-sm h-10 px-4 rounded-lg hover:bg-primary transition-colors cursor-pointer">
                 Submit a tool
@@ -31,7 +31,7 @@ import PreviewIcon from './icons/PreviewIcon.astro';
 <style>
     @reference "../styles/global.css";
 
-    /* Estilo enlaces */
+    /* Links */
     nav a {
         @apply text-[#3a2e24] dark:text-[#d3cec9] hover:text-primary dark:hover:text-primary transform transition-all;
     }

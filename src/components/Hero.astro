@@ -1,16 +1,28 @@
+---
+import StatCard from './StatCard.astro';
+---
+
 <!-- Hero -->
-<section class="py-18">
+<section class="pt-18">
     <div class="text-center text-white bg-cover bg-top" style='background-image: linear-gradient(rgba(34, 24, 16, 0.5) 0%, rgba(34, 24, 16, 0.8) 100%), url("/src/assets/BackgroundHero.jpg");'>
 
-        <!-- Presentación -->
-        <article class="py-20 max-w-5xl mx-auto">
+        <!-- Introduction -->
+        <article class="py-20 6 max-w-5xl mx-auto">
             <h1 class="text-5xl font-extrabold !leading-tight tracking-tight">
                 Curated libraries, snippets, utilities & tools for <span class="text-primary-light">modern</span> web development
             </h1>
-            <p class="mt-16 text-xl text-white/80 max-w-2xl mx-auto">
+            <p class="mt-15 text-xl text-white/85 max-w-2xl mx-auto">
                 Discover, compare and integrate the best web development resources. From web tools to copy-ready components, find everything you need in one curated collection.
             </p>
         </article>
+
+        <!-- Stats Cards -->
+        <div class="pt-4 pb-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+            <StatCard value="500+" label="Tools & Libraries" />
+            <StatCard value="50+" label="Categories" />
+            <StatCard value="1.2k" label="Developers" />
+            <StatCard value="200+" label="Contributions" />
+        </div>
       </div>
     </div>
 </section>
