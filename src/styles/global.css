@@ -2,8 +2,9 @@
 
 
 @theme {
-    /* Colores */
+    /* Paleta de colores */
     --color-primary: #ec7813;
+    --color-primary-light: #ef8c36;
     --color-background-light: #f8f7f6;
     --color-background-dark: #221810;
 }
