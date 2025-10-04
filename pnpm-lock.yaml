@@ -11,15 +11,6 @@ importers:
       '@astrojs/react':
         specifier: ^4.4.0
         version: 4.4.0(@types/node@24.5.2)(@types/react-dom@19.1.9(@types/react@19.1.15))(@types/react@19.1.15)(jiti@2.6.0)(lightningcss@1.30.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@fontsource-variable/nunito-sans':
-        specifier: ^5.2.7
-        version: 5.2.7
-      '@fontsource/pacifico':
-        specifier: ^5.2.7
-        version: 5.2.7
-      '@lucide/astro':
-        specifier: ^0.544.0
-        version: 0.544.0(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))
       '@tailwindcss/vite':
         specifier: ^4.1.13
         version: 4.1.13(vite@6.3.6(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1))
@@ -32,9 +23,6 @@ importers:
       astro:
         specifier: ^5.14.1
         version: 5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2)
-      lucide-react:
-        specifier: ^0.544.0
-        version: 0.544.0(react@19.1.1)
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -318,12 +306,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource-variable/nunito-sans@5.2.7':
-    resolution: {integrity: sha512-rflH5HeAoNjIkwftStzQvxqCJhIS+usMr/lfslWg/RCa499B5qxyjo+74R/QMM0geQt4AY1URlG7wAR1iq6KPQ==}
-
-  '@fontsource/pacifico@5.2.7':
-    resolution: {integrity: sha512-L+YiZn3Lb8rVN15zcLlti62doVxQeFpS+dJmulKkFrUo3dZIAxZLHwXoKaaHm+VVcOTrT/mmKCZqGOIWVmFV2w==}
-
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
     engines: {node: '>=18'}
@@ -469,11 +451,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
-
-  '@lucide/astro@0.544.0':
-    resolution: {integrity: sha512-A1OMIplo44RLQ5MefvXOMwHOnR1w/Dvk7q7W0LlKYwwV8pfBavU0nQecyb2rPkIt9dLTd4XfBUFRKCE+1r5gjA==}
-    peerDependencies:
-      astro: ^4 || ^5
 
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
@@ -1229,11 +1206,6 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
-
-  lucide-react@0.544.0:
-    resolution: {integrity: sha512-t5tS44bqd825zAW45UQxpG2CvcC4urOwn2TrwSH8u+MjeE+1NnWl6QqeQ/6NdjMqdOygyiT9p3Ev0p1NJykxjw==}
-    peerDependencies:
-      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
@@ -2179,10 +2151,6 @@ snapshots:
   '@esbuild/win32-x64@0.25.10':
     optional: true
 
-  '@fontsource-variable/nunito-sans@5.2.7': {}
-
-  '@fontsource/pacifico@5.2.7': {}
-
   '@img/colour@1.0.0':
     optional: true
 
@@ -2294,10 +2262,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  '@lucide/astro@0.544.0(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))':
-    dependencies:
-      astro: 5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2)
 
   '@oslojs/encoding@1.1.0': {}
 
@@ -3094,10 +3058,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  lucide-react@0.544.0(react@19.1.1):
-    dependencies:
-      react: 19.1.1
 
   magic-string@0.30.19:
     dependencies:
